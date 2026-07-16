@@ -684,6 +684,7 @@ export class SW25ActorSheet extends ActorSheet {
   /** @override */
   activateListeners(html) {
     super.activateListeners(html);
+    html = $(html);
 
     // Render the item sheet for viewing/editing prior to the editable check.
     html.on("click", ".item-edit", (ev) => {
@@ -2310,6 +2311,7 @@ export class SW25ActorSheet extends ActorSheet {
     dialog.render(true);
 
     Hooks.once("renderDialog", (app, html) => {
+      html = $(html);
       const addToggleHandler = (categoryId) => {
         const toggle = html.find(`#${categoryId}-toggle`);
         const checkboxes = html.find(`input[name="${categoryId}"]`);

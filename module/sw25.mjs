@@ -776,6 +776,7 @@ Hooks.once("ready", async function () {
 
   // Chat message button
   Hooks.on("renderChatMessage", (chatMessage, html, data) => {
+    html = $(html);
     html.find(".buttonclick").click(function () {
       const button = $(this);
       const buttonType = button.data("buttontype");
@@ -1278,6 +1279,7 @@ Hooks.on("getSceneControlButtons", function (controls) {
 
 // textarea edit hook
 Hooks.on("renderSW25ActorSheet", (app, html, data) => {
+  html = $(html);
   html.find(".textarea-editor").on("blur", async (event) => {
     const textarea = $(event.currentTarget);
     const path = "system." + textarea.data("path");
@@ -1291,6 +1293,7 @@ Hooks.on("renderSW25ActorSheet", (app, html, data) => {
   });
 });
 Hooks.on("renderSW25ItemSheet", (app, html, data) => {
+  html = $(html);
   html.find(".textarea-editor").on("blur", async (event) => {
     const textarea = $(event.currentTarget);
     const path = "system." + textarea.data("path");
