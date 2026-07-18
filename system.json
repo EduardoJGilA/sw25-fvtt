@@ -18,10 +18,10 @@
       "thumbnail": "systems/sw25/assets/sw25fvtt.png"
     }
   ],
-  "version": "2.4.1",
+  "version": "2.5.0",
   "compatibility": {
     "minimum": "12",
-    "verified": "12.343",
+    "verified": "14",
     "maximum": "15"
   },
   "esmodules": ["module/sw25.mjs"],
@@ -90,8 +90,8 @@
     }
   ],
   "socket": true,
-  "manifest": "https://github.com/jeannjeann/sw25-fvtt/releases/download/2.4.1/system.json",
-  "download": "https://github.com/jeannjeann/sw25-fvtt/releases/download/2.4.1/system.zip",
+  "manifest": "https://raw.githubusercontent.com/EduardoJGilA/sw25-fvtt/dev/system.json",
+  "download": "https://github.com/EduardoJGilA/sw25-fvtt/archive/refs/heads/dev.zip",
   "background": "systems/sw25/assets/sw25fvtt.png",
   "grid": {
     "distance": 1,
