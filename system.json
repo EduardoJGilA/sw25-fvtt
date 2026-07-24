@@ -25,7 +25,7 @@
     "maximum": "15"
   },
   "esmodules": ["module/sw25.mjs"],
-  "styles": ["css/sw25.css", "fonts/MingCute/MingCute.css"],
+  "styles": ["css/sw25.css", "css/sw25-skin.css", "fonts/MingCute/MingCute.css"],
   "languages": [
     {
       "lang": "en",
