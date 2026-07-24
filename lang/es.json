@@ -1,6 +1,5 @@
 {
   "SW25": {
-
     "Setting": "Ajustes",
     "Message": "Mensaje",
     "StraightRoll": "Tirada sin modificador",
@@ -19,7 +18,7 @@
     "Adventure": "Aventura",
     "Status": "Atributos",
     "Items": "Objetos",
-    "Mymoney" :"Dinero",
+    "Mymoney": "Dinero",
     "Features": "Dotes",
     "Spells": "Conjuros",
     "Effects": "Efectos",
@@ -90,7 +89,6 @@
     "Or": "O",
     "TargetSelect": "Seleccionar objetivo",
     "SelectAll": "Seleccionar todo",
-
     "Notargetwarn": "No se ha seleccionado ningún objetivo.",
     "Multitargetwarn": "Múltiples objetivos seleccionados.",
     "Noselectwarn": "No hay ningún token seleccionado.",
@@ -98,30 +96,67 @@
     "SummonMpwarn": "Selecciona el token del invocador.",
     "InputPlaceHolder": "Introduce aquí...",
     "NotTokenwarn": "No hay tokens en el lienzo.",
-    
     "StartMigration": "Iniciando migración de datos...",
     "CompleteMigration": "¡Migración completada!",
-
     "RevealMonsterData": "Revelar datos del monstruo",
-
     "NotResource": "No se encontró el recurso.",
     "InputPhaseareaPoint": "Introduce el Qi a usar.",
-
     "TurnendEffect": "Efecto al final del turno",
-
     "Disposition": {
       "Friendly": "Amistoso",
       "Neutral": "Neutral",
       "Hostile": "Hostil"
     },
-
     "CharacterName": "Nombre del personaje",
     "SwitchImage": "Cambiar a {image}",
     "ActorImage": "Retrato",
     "TokenImage": "Imagen del token",
     "Hp": "PV",
     "Mp": "PM",
-    "Race": "Raza",
+    "Race": {
+      "Human": "Humano",
+      "Elf": "Elfo",
+      "Dwarf": "Enano",
+      "Runefolk": "Runefolk (Gente de las Runas)",
+      "Nightmare": "Pesadilla (Nightmare)",
+      "Tabbit": "Tabbit",
+      "Grassrunner": "Grassrunner (Corredor de Pasto)",
+      "Leprechaun": "Leprechaun",
+      "Shadow": "Sombra (Shadow)",
+      "Soleil": "Soleil",
+      "Alv": "Alv",
+      "Lildraken": "Lildraken",
+      "Valkyrie": "Valquiria",
+      "Spriggan": "Spriggan",
+      "Meria": "Meria",
+      "Tiens": "Tiens",
+      "Dhampir": "Dhampir",
+      "Abyssborn": "Nacido del Abismo (Abyssborn)",
+      "Arbor": "Árbor",
+      "BabaYaga": "Baba Yaga",
+      "Basilisk": "Basilisco",
+      "BrokenDrake": "Drake Quebrado",
+      "Centaur": "Centauro",
+      "DarkDwarf": "Enano Oscuro",
+      "DarkTroll": "Troll Oscuro",
+      "Dawn": "Dawn",
+      "Diablo": "Diablo",
+      "Drake": "Drake",
+      "Fey": "Fey",
+      "Fluorite": "Fluorita",
+      "Kobold": "Kobold",
+      "Lamia": "Lamia",
+      "Lizardman": "Hombre Lagarto",
+      "Lycanthrope": "Licántropo",
+      "Lykant": "Lykant",
+      "MagitechAngel": "Ángel Magitécnico",
+      "Miakis": "Miakis",
+      "Newman": "Newman",
+      "Scissorscorpion": "Scissorscorpion",
+      "Sentian": "Sentian",
+      "Vulcan": "Vulcano",
+      "Weakling": "Weakling"
+    },
     "Biography": "Biografía y notas",
     "Languages": "Idiomas",
     "Attributes": {
@@ -144,20 +179,50 @@
       "Normalmove": "Movimiento normal",
       "Maxmove": "Movimiento máximo",
       "Limitedmove": "Movimiento limitado",
-      "Protectionpoint": { "long": "Protección", "abbr": "Prot." },
-      "Magicprotection": { "long": "Protección mágica", "abbr": "Prot. Mág." },
+      "Protectionpoint": {
+        "long": "Protección",
+        "abbr": "Prot."
+      },
+      "Magicprotection": {
+        "long": "Protección mágica",
+        "abbr": "Prot. Mág."
+      },
       "Showfeature": "Mostrar grupos vacíos",
       "Showspell": "Mostrar todos los conjuros",
       "Showaction": "Mostrar todas las acciones",
       "Magicpower": "Poder mágico"
     },
     "Ability": {
-      "Dex": { "long": "Destreza", "abbr": "Des", "die": "⚀" },
-      "Agi": { "long": "Agilidad", "abbr": "Agi", "die": "⚁" },
-      "Str": { "long": "Fuerza", "abbr": "Fue", "die": "⚂" },
-      "Vit": { "long": "Constitución", "abbr": "Con", "die": "⚃" },
-      "Int": { "long": "Inteligencia", "abbr": "Int", "die": "⚄" },
-      "Mnd": { "long": "Espíritu", "abbr": "Esp", "die": "⚅" },
+      "Dex": {
+        "long": "Destreza",
+        "abbr": "Des",
+        "die": "⚀"
+      },
+      "Agi": {
+        "long": "Agilidad",
+        "abbr": "Agi",
+        "die": "⚁"
+      },
+      "Str": {
+        "long": "Fuerza",
+        "abbr": "Fue",
+        "die": "⚂"
+      },
+      "Vit": {
+        "long": "Constitución",
+        "abbr": "Con",
+        "die": "⚃"
+      },
+      "Int": {
+        "long": "Inteligencia",
+        "abbr": "Int",
+        "die": "⚄"
+      },
+      "Mnd": {
+        "long": "Espíritu",
+        "abbr": "Esp",
+        "die": "⚅"
+      },
       "Growth": "Crecimiento",
       "Modify": "Modificar",
       "Technique": "Técnica",
@@ -260,7 +325,7 @@
       "UseAmmunition": "Consumir munición",
       "AutoUseres": "Consumo automático",
       "Resuse": "Nombre del recurso",
-      "Resquantity": "Cantidad", 
+      "Resquantity": "Cantidad",
       "Dice": "Dados ",
       "Customdice": "Personalizar dados",
       "Formula": "Fórmula de tirada",
@@ -335,8 +400,7 @@
       "Healing": "Curación",
       "Premise": "Prerrequisito",
       "Part": "Parte aplicable",
-      "Weapn": {
-      },
+      "Weapn": {},
       "Weapon": {
         "Type": "Tipo",
         "Blade": "Filo",
@@ -430,7 +494,7 @@
         "Fairywind": "Viento",
         "Fairylight": "Luz",
         "Fairydark": "Oscuridad",
-        "FairyContract":{
+        "FairyContract": {
           "Rank": "Rango",
           "Earth": "Tier",
           "Water": "Agu",
@@ -446,8 +510,7 @@
         "ExTime": "Tiempo de expansión",
         "Expansion": "Efecto de expansión"
       },
-      "Enhancearts": {
-      },
+      "Enhancearts": {},
       "Magicalsong": {
         "Song": "Canto de conjuro",
         "Final": "Final",
@@ -492,7 +555,7 @@
         "Jin": "Espiritual"
       },
       "Tactics": {
-        "Tacspower" :"Filo",
+        "Tacspower": "Filo",
         "Drum": "Estratagema",
         "Camp": "Maniobra",
         "Line": "Tipo",
@@ -583,8 +646,7 @@
         "Otherskill": "Otra clase",
         "Commonskill": "Clase común"
       },
-      "Raceability": {
-      },
+      "Raceability": {},
       "Language": {
         "Conversation": "Hablar",
         "Reading": "Leer"
@@ -630,7 +692,7 @@
         "BasicResult": "Info. básica",
         "SwordResult": "Cálculo de fragmentos de espada",
         "CharaResult": "Cálculo de pifias",
-        "CustomResult" : "Info. personalizada",
+        "CustomResult": "Info. personalizada",
         "Result": {
           "Label": "Resultado de la sesión",
           "Remainder": "Sobrante",
@@ -640,7 +702,7 @@
           "Value": "Valor"
         }
       },
-      "Field" : {
+      "Field": {
         "Basic": "Ajustes básicos",
         "Resist": "Ajustes de resistencia",
         "Timing": "Momento de uso",
@@ -1053,7 +1115,6 @@
       }
     }
   },
-
   "TYPES": {
     "Actor": {
       "character": "Personaje jugador",
@@ -1087,108 +1148,107 @@
       "session": "Sesión"
     }
   },
-
   "SETTING": {
-    "effectVitResPC":{
+    "effectVitResPC": {
       "name": "Nombre de objeto para Entereza",
       "hint": "Configuración del objetivo para el efecto de Entereza (para el personaje jugador), por defecto y cuando se omite: ",
       "default": "Entereza"
     },
-    "effectMndResPC":{
+    "effectMndResPC": {
       "name": "Nombre de objeto para Voluntad",
       "hint": "Configuración del objetivo para el efecto de Voluntad (para el personaje jugador), por defecto y cuando se omite: ",
       "default": "Voluntad"
     },
-    "effectInitPC":{
+    "effectInitPC": {
       "name": "Nombre de objeto para Iniciativa",
       "hint": "Configuración del objetivo del efecto y la fórmula de Iniciativa (para el personaje jugador), por defecto y cuando se omite: ",
       "default": "Iniciativa"
     },
-    "effectMKnowPC":{
+    "effectMKnowPC": {
       "name": "Nombre de objeto para Conocimiento de monstruos",
       "hint": "Configuración del objetivo para el efecto de Conocimiento de monstruos (para el personaje jugador), por defecto y cuando se omite: ",
       "default": "Conocimiento de monstruos"
     },
-    "effectVitResMon":{
+    "effectVitResMon": {
       "name": "Etiqueta de Entereza",
       "hint": "Configuración del objetivo para el efecto de Entereza (para monstruos), por defecto y cuando se omite: ",
       "default": "Entereza"
     },
-    "effectMndResMon":{
+    "effectMndResMon": {
       "name": "Etiqueta de Voluntad",
       "hint": "Configuración del objetivo para el efecto de Voluntad (para monstruos), por defecto y cuando se omite: ",
       "default": "Voluntad"
     },
-    "effectHitMon":{
+    "effectHitMon": {
       "name": "Etiqueta de Precisión",
       "hint": "Configuración del objetivo para el efecto de Precisión (para monstruos), por defecto y cuando se omite: ",
       "default": "Precisión"
     },
-    "effectDmgMon":{
+    "effectDmgMon": {
       "name": "Etiqueta de Daño",
       "hint": "Configuración del objetivo para el efecto de Daño (para monstruos), por defecto y cuando se omite: ",
       "default": "Daño"
     },
-    "effectDodgeMon":{
+    "effectDodgeMon": {
       "name": "Etiqueta de Evasión",
       "hint": "Configuración del objetivo para el efecto de Evasión (para monstruos), por defecto y cuando se omite: ",
       "default": "Evasión"
     },
-    "effectScpMon":{
+    "effectScpMon": {
       "name": "Etiqueta de conjuro de Discurso Verdadero",
       "hint": "Configuración del objetivo para el efecto de conjuro de Discurso Verdadero (para monstruos), por defecto y cuando se omite: ",
       "default": "TruespeechMP"
     },
-    "effectCnpMon":{
+    "effectCnpMon": {
       "name": "Etiqueta de conjuro de Control Espiritual",
       "hint": "Configuración del objetivo para el efecto de conjuro de Control Espiritual (para monstruos), por defecto y cuando se omite: ",
       "default": "SpiritualismMP"
     },
-    "effectWzpMon":{
+    "effectWzpMon": {
       "name": "Etiqueta de conjuro de Magia Profunda",
       "hint": "Configuración del objetivo para el efecto de conjuro de Magia Profunda (para monstruos), por defecto y cuando se omite: ",
       "default": "DeepMagicMP"
     },
-    "effectPrpMon":{
+    "effectPrpMon": {
       "name": "Etiqueta de conjuro de Magia Divina",
       "hint": "Configuración del objetivo para el efecto de conjuro de Magia Divina (para monstruos), por defecto y cuando se omite: ",
       "default": "DivineMP"
     },
-    "effectMtpMon":{
+    "effectMtpMon": {
       "name": "Etiqueta de conjuro de Magitecnología",
       "hint": "Configuración del objetivo para el efecto de conjuro de Magitecnología (para monstruos), por defecto y cuando se omite: ",
       "default": "MagitechMP"
     },
-    "effectFrpMon":{
+    "effectFrpMon": {
       "name": "Etiqueta de conjuro de Magia de las Hadas",
       "hint": "Configuración del objetivo para el efecto de conjuro de Magia de las Hadas (para monstruos), por defecto y cuando se omite: ",
       "default": "FairyMP"
     },
-    "effectDrpMon":{
+    "effectDrpMon": {
       "name": "Etiqueta de conjuro de Magia de la Naturaleza",
       "hint": "Configuración del objetivo para el efecto de conjuro de Magia de la Naturaleza (para monstruos), por defecto y cuando se omite: ",
       "default": "NatureMP"
     },
-    "effectDmpMon":{
+    "effectDmpMon": {
       "name": "Etiqueta de arte de Invocación Demoníaca",
       "hint": "Configuración del objetivo para el efecto de arte de Invocación Demoníaca (para monstruos), por defecto y cuando se omite: ",
       "default": "SummoningMP"
     },
-    "effectAbpMon":{
+    "effectAbpMon": {
       "name": "Etiqueta de Magia Abismal",
       "hint": "Configuración del objetivo para el efecto de Magia Abismal (para monstruos), por defecto y cuando se omite: ",
       "default": "AbyssalMP"
     },
-    "effectBmpMon":{
+    "effectBmpMon": {
       "name": "Etiqueta de Magia Arcana (Secretos)",
       "hint": "Configuración del objetivo para el efecto de Magia Arcana (para monstruos), por defecto y cuando se omite: ",
       "default": "SecretsMP"
     },
-    "fromCompendium":{
+    "fromCompendium": {
       "name": "Obtener idiomas del Compendio",
       "hint": "Configuración del módulo Polyglot. Desactivado: obtiene la lista de idiomas únicamente de los existentes en la partida actual. Activado: también obtiene la lista de los idiomas definidos en el compendio (se requiere volver a seleccionar el personaje después de cargar la partida para aplicar los idiomas). Por defecto: Desactivado (requiere recargar)"
     },
-    "defaultCharaAction":{
+    "defaultCharaAction": {
       "name": "Configuración de tiradas de personaje",
       "hint": "Ajustes por defecto de tiradas. Si se activa, se usará el personaje asignado al usuario por defecto cuando no haya ningún personaje seleccionado. Por defecto: Activado (requiere recargar)"
     },
