@@ -238,6 +238,17 @@ Hooks.on("updateCombat", async (combat, changes, options, userId) => {
 /*  Handlebars Helpers                          */
 /* -------------------------------------------- */
 
+// The core {{select}} helper was removed in Foundry v14. Provide our own so the
+// sheet templates keep working on v12 through v14.
+Handlebars.registerHelper("select", function (selected, options) {
+  const escaped = Handlebars.escapeExpression(selected ?? "").replace(
+    /[.*+?^${}()|[\]\\]/g,
+    "\\$&"
+  );
+  const rgx = new RegExp(` value=["']${escaped}["']`);
+  return options.fn(this).replace(rgx, "$& selected");
+});
+
 // If you need to add Handlebars helpers, here is a useful example:
 Handlebars.registerHelper("toLowerCase", function (str) {
   return str.toLowerCase();
