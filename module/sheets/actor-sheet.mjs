@@ -851,7 +851,8 @@ export class SW25ActorSheet extends ActorSheet {
     html.find(".fairy-contract").on("click", async (ev) => {
       const target = ev.currentTarget;
       const dataPath = target.dataset.path;
-      const currentState = getProperty(this.actor, dataPath) || false;
+      const currentState =
+        foundry.utils.getProperty(this.actor, dataPath) || false;
 
       await this.actor.update({ [dataPath]: !currentState });
       target.classList.toggle("checked", !currentState);
